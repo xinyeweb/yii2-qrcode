@@ -28,4 +28,13 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \xinyeweb\qrcode\AutoloadExample::widget(); ?>```
+<?= \xinyeweb\qrcode\QrCode::widget([
+    'options' => [
+        'id' => 'my-qrcode',
+        'class' => 'qrcode-class'
+    ],
+    'clientOptions' => [
+        'render' => 'table',
+        'text' => 'http://www.autozh.com'    
+    ]
+]) ?>```
