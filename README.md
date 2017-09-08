@@ -37,4 +37,5 @@ Once the extension is installed, simply use it in your code by  :
         'render' => 'table',
         'text' => 'http://www.autozh.com'    
     ]
-]) ?>```
+]) ?>
+```
